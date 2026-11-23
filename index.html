@@ -4,28 +4,254 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Headwaters</title>
+  <meta name="description" content="Christie Beck — Instructional Designer, Digital Learning & Performance Leader.">
+  <title>Christie Beck | Headwaters</title>
+
   <style>
+    :root {
+      --background: #ffffff;
+      --text: #202b36;
+      --muted: #526171;
+      --accent: #356f91;
+      --light: #f1f5f8;
+      --border: #dce5eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
     body {
       margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      background: #F2F0E8;
-      color: #123C43;
-      font-family: Arial, sans-serif;
-      text-align: center;
+      background: var(--background);
+      color: var(--text);
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.65;
     }
-    main { padding: 2rem; }
-    h1 { font-size: clamp(3rem, 9vw, 6rem); }
-    p { font-size: 1.2rem; }
+
+    a { color: inherit; }
+
+    .container {
+      width: min(1120px, 90%);
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav {
+      min-height: 86px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      font-size: 1.55rem;
+      font-weight: 750;
+      letter-spacing: -0.06em;
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: var(--muted);
+    }
+
+    nav a:hover, nav a:focus-visible {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 0.85fr 1.15fr;
+      align-items: center;
+      gap: clamp(32px, 6vw, 90px);
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+
+    .portrait {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      object-position: center 35%;
+      border-radius: 16px;
+      display: block;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-size: 0.78rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 6vw, 5.2rem);
+      letter-spacing: -0.055em;
+      line-height: 1.05;
+      margin: 0 0 20px;
+    }
+
+    .subtitle {
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 28px;
+    }
+
+    .intro p:not(.eyebrow):not(.subtitle) {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 650px;
+    }
+
+    .expertise {
+      background: var(--light);
+      padding: 75px 0 90px;
+    }
+
+    h2 {
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      letter-spacing: -0.035em;
+      margin: 0 0 30px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skill {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 12px 22px;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    footer {
+      padding: 36px 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 760px) {
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 12px;
+      }
+
+      nav { gap: 20px; }
+
+      .hero {
+        grid-template-columns: 1fr;
+        padding-top: 45px;
+        padding-bottom: 55px;
+      }
+
+      .portrait {
+        max-width: 420px;
+      }
+
+      .expertise { padding: 55px 0; }
+    }
   </style>
 </head>
+
 <body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#">headwaters.</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+      </nav>
+    </div>
+  </header>
+
   <main>
-    <h1>headwaters.</h1>
-    <p>Better learning starts with better questions.</p>
-    <p>Something is taking shape.</p>
+    <section class="container hero" id="about"
+             aria-labelledby="page-title">
+
+      <div>
+        <img
+          class="portrait"
+          src="christie-beck.png"
+          alt="Portrait of Christie Beck"
+          width="1145"
+          height="1374"
+        >
+      </div>
+
+      <div class="intro">
+        <p class="eyebrow">
+          Learning Design & Performance
+        </p>
+
+        <h1 id="page-title">Christie Beck</h1>
+
+        <p class="subtitle">
+          Instructional Designer · Digital Learning
+          & Performance Leader
+        </p>
+
+        <p>
+          I design accessible, practical learning
+          experiences for healthcare and regulated
+          environments. My work includes courses,
+          assessments, videos, job aids, and multilingual
+          learning delivered in 8–12 languages.
+        </p>
+
+        <p>
+          With a background in instructional design,
+          workplace training, and education, I specialize
+          in turning complex requirements into clear,
+          performance-focused solutions.
+        </p>
+      </div>
+    </section>
+
+    <section class="expertise" id="expertise"
+             aria-labelledby="expertise-title">
+      <div class="container">
+        <h2 id="expertise-title">Expertise</h2>
+
+        <div class="skills">
+          <span class="skill">Learning strategy</span>
+          <span class="skill">Assessment</span>
+          <span class="skill">Scenario design</span>
+          <span class="skill">Accessibility</span>
+          <span class="skill">Localization</span>
+          <span class="skill">Performance support</span>
+          <span class="skill">Project management</span>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Headwaters · Christie Beck
+    </div>
+  </footer>
 </body>
 </html>
