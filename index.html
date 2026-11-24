@@ -74,13 +74,12 @@
 
     .hero {
   display: grid;
-  grid-template-columns:
-    minmax(0, 0.85fr) minmax(0, 1.15fr);
-      align-items: center;
-      gap: clamp(32px, 6vw, 90px);
-      padding-top: 90px;
-      padding-bottom: 90px;
-    }
+  grid-template-columns: 320px minmax(0, 1fr);
+  align-items: center;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
    .portrait {
   width: 100%;
@@ -102,24 +101,25 @@
     }
 
    h1 {
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
-      letter-spacing: -0.055em;
-      line-height: 1.05;
-      margin: 0 0 20px;
-    }
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+  margin: 0 0 12px;
+}
 
-    .subtitle {
-      font-size: 1.25rem;
-      font-weight: 600;
-      line-height: 1.4;
-      margin-bottom: 28px;
-    }
+.subtitle {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
 
-    .intro p:not(.eyebrow):not(.subtitle) {
-      font-size: 1.05rem;
-      color: var(--muted);
-      max-width: 650px;
-    }
+.intro p:not(.eyebrow):not(.subtitle) {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 650px;
+}
 
     .expertise {
       background: var(--light);
@@ -152,6 +152,32 @@
       color: var(--muted);
       font-size: 0.9rem;
     }
+
+.hero-expertise {
+  margin-top: 26px;
+}
+
+.hero-expertise h2 {
+  font-size: 1.15rem;
+  margin-bottom: 14px;
+}
+
+.hero-expertise .skills {
+  gap: 8px;
+}
+
+.hero-expertise .skill {
+  padding: 7px 13px;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
 
     @media (max-width: 760px) {
       .nav {
@@ -229,25 +255,22 @@
           in turning complex requirements into clear,
           performance-focused solutions.
         </p>
-      </div>
-    </section>
+        <div class="hero-expertise">
+  <h2>Expertise</h2>
 
-    <section class="expertise" id="expertise"
-             aria-labelledby="expertise-title">
-      <div class="container">
-        <h2 id="expertise-title">Expertise</h2>
+  <div class="skills">
+    <span class="skill">Learning strategy</span>
+    <span class="skill">Assessment</span>
+    <span class="skill">Scenario design</span>
+    <span class="skill">Accessibility</span>
+    <span class="skill">Localization</span>
+    <span class="skill">Performance support</span>
+    <span class="skill">Project management</span>
+  </div>
+</div>
 
-        <div class="skills">
-          <span class="skill">Learning strategy</span>
-          <span class="skill">Assessment</span>
-          <span class="skill">Scenario design</span>
-          <span class="skill">Accessibility</span>
-          <span class="skill">Localization</span>
-          <span class="skill">Performance support</span>
-          <span class="skill">Project management</span>
-        </div>
       </div>
-    </section>
+    
   </main>
 
   <footer>
