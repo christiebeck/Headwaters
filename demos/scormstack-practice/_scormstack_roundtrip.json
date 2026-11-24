@@ -1,0 +1,594 @@
+{
+  "format": "scormstack-roundtrip",
+  "version": "1.0",
+  "generatedAt": "2026-11-24T16:58:08.176Z",
+  "course": {
+    "id": "8e52c381-b017-4e39-95b3-25bbdb80b80e",
+    "title": "practice",
+    "description": "",
+    "cover_image": "media/course-8e52c381-b017-4e39-95b3-25bbdb80b80e-card-thumbnail_5dcd3555.webp",
+    "theme_config": null,
+    "homepage": {
+      "hidden": true,
+      "showHero": true,
+      "showToc": true,
+      "showCta": true,
+      "heroLayout": "center",
+      "heroHeadingSize": "medium",
+      "tocLayout": "hierarchy",
+      "areaOrder": [
+        "hero",
+        "toc"
+      ],
+      "title": "",
+      "description": "",
+      "buttonLabel": "",
+      "buttonIcon": "arrow-right",
+      "logoImage": null,
+      "image": null,
+      "ctaSettings": {
+        "size": "medium",
+        "variant": "outline",
+        "buttonColor": ""
+      },
+      "heroFormat": {
+        "contentMaxWidth": 3,
+        "paddingTop": 32,
+        "paddingBottom": 32,
+        "paddingLinked": true,
+        "textAlign": "start",
+        "gap": 24,
+        "backgroundType": "THEME",
+        "overlayColor": "NONE",
+        "overlayOpacity": 0.4
+      },
+      "tocFormat": {
+        "contentMaxWidth": 3,
+        "paddingTop": 32,
+        "paddingBottom": 32,
+        "paddingLinked": true,
+        "textAlign": "start",
+        "gap": 24,
+        "backgroundType": "LIGHT",
+        "overlayColor": "NONE",
+        "overlayOpacity": 0.3
+      },
+      "sectionLabels": {},
+      "slideLabels": {},
+      "sectionImages": {},
+      "sectionIcons": {},
+      "slideIcons": {},
+      "blocks": []
+    },
+    "slides": [
+      {
+        "id": "f7796327-9cd8-4970-bb45-c7ca06f9a801",
+        "title": "Introduction",
+        "content": {},
+        "duration": 0,
+        "course_id": "8e52c381-b017-4e39-95b3-25bbdb80b80e",
+        "created_at": "2026-11-24T13:08:15.483641+00:00",
+        "objectives": [],
+        "section_id": null,
+        "slide_type": "content",
+        "updated_at": "2026-11-24T16:39:59.033785+00:00",
+        "order_index": 0,
+        "variant_ids": null,
+        "blocks": [
+          {
+            "originalId": "04cf8c30-f53d-4065-8be9-1f7313e15c1a",
+            "title": "Introduction block",
+            "type": "slide_intro",
+            "variant": "default",
+            "content": {
+              "icon": "academic-cap",
+              "title": "Welcome to CDWA!",
+              "custom": {},
+              "format": {
+                "gap": 24,
+                "width": 100,
+                "textAlign": "start",
+                "textColor": "var(--background)",
+                "paddingTop": 48,
+                "showLesson": true,
+                "accentColor": "",
+                "paddingBottom": 48,
+                "paddingLinked": true,
+                "backgroundSize": "cover",
+                "backgroundType": "IMAGE",
+                "showObjectives": true,
+                "backgroundColor": "",
+                "contentMaxWidth": 3,
+                "backgroundEffect": "parallax",
+                "backgroundRepeat": "no-repeat",
+                "backgroundImageAlt": "Aubergine gradient background",
+                "backgroundImageSrc": "media/bg_gradient_2_ujfhxoj.svg",
+                "backgroundPosition": "center",
+                "baseBackgroundType": "LIGHT",
+                "showTableOfContent": false,
+                "baseBackgroundColor": ""
+              },
+              "duration": 300,
+              "subtitle": "Let's get started on this learning journey",
+              "objectives": [],
+              "description": "This is your first slide. Click on any element to customize it and make it your own!"
+            },
+            "custom_layout_id": null,
+            "position": 0,
+            "id": "b0"
+          },
+          {
+            "originalId": "47f27dd7-2989-46b0-ab4c-cd0574c8856d",
+            "title": "Separator block",
+            "type": "separator",
+            "variant": "shape",
+            "content": {
+              "shape": "custom",
+              "format": {
+                "gap": 24,
+                "width": 100,
+                "textAlign": "start",
+                "textColor": "",
+                "paddingTop": 0,
+                "accentColor": "",
+                "paddingBottom": 0,
+                "paddingLinked": true,
+                "backgroundType": "THEME",
+                "backgroundColor": "",
+                "contentMaxWidth": 3
+              },
+              "rotate": false,
+              "options": {
+                "width": 100,
+                "opacity": 100,
+                "thickness": 10,
+                "top_color": "var(--primary)",
+                "custom_shape_data": {
+                  "anchors": [
+                    {
+                      "x": 0,
+                      "y": 96
+                    },
+                    {
+                      "x": 360.00006103515625,
+                      "y": 71.760009765625
+                    },
+                    {
+                      "x": 1058.1817626953125,
+                      "y": 153.36001586914062
+                    },
+                    {
+                      "x": 1440,
+                      "y": 96
+                    }
+                  ],
+                  "segments": [
+                    {
+                      "cp1": {
+                        "x": 0,
+                        "y": 96
+                      },
+                      "cp2": {
+                        "x": 192.00006103515625,
+                        "y": 71.760009765625
+                      }
+                    },
+                    {
+                      "cp1": {
+                        "x": 600.0000610351562,
+                        "y": 71.760009765625
+                      },
+                      "cp2": {
+                        "x": 818.1817626953125,
+                        "y": 153.36001586914062
+                      }
+                    },
+                    {
+                      "cp1": {
+                        "x": 1226.1817626953125,
+                        "y": 153.36001586914062
+                      },
+                      "cp2": {
+                        "x": 1440,
+                        "y": 96
+                      }
+                    }
+                  ]
+                },
+                "custom_shape_svg_path": null,
+                "custom_shape_svg_markup": null,
+                "custom_shape_svg_viewbox": null
+              },
+              "topColor": "var(--background)",
+              "flip_vertical": true,
+              "flip_horizontal": true,
+              "extend_background": true
+            },
+            "custom_layout_id": null,
+            "position": 1,
+            "id": "b1"
+          },
+          {
+            "originalId": "c4765b56-51e0-4eb2-a91c-81b1e46e7d4d",
+            "title": "Image & Text block",
+            "type": "image",
+            "variant": "image_with_text",
+            "content": {
+              "text": "<p><span style=\"font-size: 24px\"><strong>Your hiring tasks are completed electronically in Workday.</strong></span></p><p>We recommend:</p><ul><li><p>Using a computer or tablet with Chrome as your web browser.</p></li><li><p>Using your Workday inbox to find your tasks and complete them.</p></li></ul>",
+              "format": {
+                "gap": 24,
+                "width": 100,
+                "textAlign": "start",
+                "textColor": "",
+                "paddingTop": 32,
+                "accentColor": "",
+                "paddingBottom": 32,
+                "paddingLinked": true,
+                "backgroundType": "THEME",
+                "backgroundColor": "",
+                "contentMaxWidth": 3
+              },
+              "images": {
+                "image_1": {
+                  "alt": "Learning illustration",
+                  "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+                  "width": 40,
+                  "caption": "",
+                  "mediaId": null,
+                  "position": "left",
+                  "decorative": false,
+                  "verticalAlign": "top"
+                }
+              },
+              "options": {
+                "box_shadow": true,
+                "grid_columns": 3,
+                "show_caption": true
+              }
+            },
+            "custom_layout_id": null,
+            "position": 2,
+            "id": "b2"
+          },
+          {
+            "originalId": "0e5a7e53-06d5-4046-8eef-31aed4549fa5",
+            "title": "Separator",
+            "type": "separator",
+            "variant": "gradient",
+            "content": {
+              "format": {
+                "gap": 24,
+                "width": 100,
+                "textAlign": "start",
+                "textColor": "",
+                "paddingTop": 0,
+                "accentColor": "",
+                "paddingBottom": 0,
+                "paddingLinked": true,
+                "backgroundType": "THEME",
+                "backgroundColor": "",
+                "contentMaxWidth": 3
+              },
+              "options": {
+                "width": 100,
+                "height": 100,
+                "opacity": 100,
+                "thickness": 2,
+                "top_color": "var(--gray)",
+                "gradientEndColor": "light",
+                "gradientDirection": "horizontal",
+                "gradientStartColor": "primary"
+              },
+              "gradient": {
+                "direction": "vertical"
+              }
+            },
+            "custom_layout_id": null,
+            "position": 3,
+            "id": "b3"
+          },
+          {
+            "originalId": "13969c77-26de-4b41-98c6-2da538aa55ee",
+            "title": "Text",
+            "type": "text",
+            "variant": "paragraph",
+            "content": {
+              "format": {
+                "gap": 24,
+                "width": 100,
+                "textAlign": "start",
+                "textColor": "",
+                "paddingTop": 16,
+                "accentColor": "",
+                "paddingBottom": 16,
+                "paddingLinked": true,
+                "backgroundType": "GRAY",
+                "backgroundColor": "",
+                "contentMaxWidth": 3
+              },
+              "heading": "Your heading",
+              "paragraph_1": "<p>Go to your inbox from your Workday Homepage and complete the tasks listed below in order. (see below for help finding your inbox)</p>",
+              "paragraph_2": ""
+            },
+            "custom_layout_id": null,
+            "position": 4,
+            "id": "b4"
+          },
+          {
+            "originalId": "da9e9ad2-2aa6-44d3-b687-10c1f7bbb85b",
+            "title": "Image & Text block",
+            "type": "image",
+            "variant": "image",
+            "content": {
+              "text": "<p><span style=\"font-size: 14px\">⭐⭐⭐⭐⭐</span></p><p><span style=\"font-size: 20px\"><em>ScormStack saved us thousands compared to other authoring tools. The interface is intuitive and our team was productive from day one.</em></span></p>",
+              "format": {
+                "gap": 24,
+                "width": 100,
+                "textAlign": "start",
+                "textColor": "",
+                "paddingTop": 16,
+                "accentColor": "",
+                "paddingBottom": 16,
+                "paddingLinked": true,
+                "backgroundType": "GRAY",
+                "backgroundColor": "",
+                "contentMaxWidth": 3,
+                "backgroundEffect": "parallax"
+              },
+              "images": {
+                "image_1": {
+                  "alt": "",
+                  "src": "media/workday_dashboard_131c50fb.png",
+                  "width": 100,
+                  "caption": "Add some caption here",
+                  "mediaId": "131c50fb-d9b4-4e91-818f-1e830947653e",
+                  "metadata": {
+                    "mediaId": "131c50fb-d9b4-4e91-818f-1e830947653e",
+                    "fileName": "workday dashboard.png",
+                    "fileSize": 190627,
+                    "fileType": "image/png"
+                  },
+                  "position": "center",
+                  "decorative": false,
+                  "verticalAlign": "middle"
+                }
+              },
+              "options": {
+                "box_shadow": false,
+                "grid_columns": 3,
+                "show_caption": false
+              }
+            },
+            "custom_layout_id": null,
+            "position": 5,
+            "id": "b5"
+          },
+          {
+            "originalId": "c7f6e1cb-fe9e-4cf4-ae40-c6fc0049dc62",
+            "title": "Copy of Separator block",
+            "type": "separator",
+            "variant": "shape",
+            "content": {
+              "shape": "custom",
+              "format": {
+                "gap": 24,
+                "width": 100,
+                "textAlign": "start",
+                "textColor": "",
+                "paddingTop": 0,
+                "accentColor": "",
+                "paddingBottom": 0,
+                "paddingLinked": true,
+                "backgroundType": "THEME",
+                "backgroundColor": "",
+                "contentMaxWidth": 3
+              },
+              "rotate": false,
+              "options": {
+                "width": 100,
+                "opacity": 100,
+                "thickness": 10,
+                "top_color": "var(--gray)",
+                "custom_shape_data": {
+                  "anchors": [
+                    {
+                      "x": 0,
+                      "y": 96
+                    },
+                    {
+                      "x": 360.00006103515625,
+                      "y": 71.760009765625
+                    },
+                    {
+                      "x": 1058.1817626953125,
+                      "y": 153.36001586914062
+                    },
+                    {
+                      "x": 1440,
+                      "y": 96
+                    }
+                  ],
+                  "segments": [
+                    {
+                      "cp1": {
+                        "x": 0,
+                        "y": 96
+                      },
+                      "cp2": {
+                        "x": 192.00006103515625,
+                        "y": 71.760009765625
+                      }
+                    },
+                    {
+                      "cp1": {
+                        "x": 600.0000610351562,
+                        "y": 71.760009765625
+                      },
+                      "cp2": {
+                        "x": 818.1817626953125,
+                        "y": 153.36001586914062
+                      }
+                    },
+                    {
+                      "cp1": {
+                        "x": 1226.1817626953125,
+                        "y": 153.36001586914062
+                      },
+                      "cp2": {
+                        "x": 1440,
+                        "y": 96
+                      }
+                    }
+                  ]
+                },
+                "custom_shape_svg_path": null,
+                "custom_shape_svg_markup": null,
+                "custom_shape_svg_viewbox": null
+              },
+              "topColor": "var(--background)",
+              "flip_vertical": true,
+              "flip_horizontal": true,
+              "extend_background": true
+            },
+            "custom_layout_id": null,
+            "position": 6,
+            "id": "b6"
+          },
+          {
+            "originalId": "175bc547-ba05-4473-a926-d04849c2076b",
+            "title": "Navigation Button block",
+            "type": "navigation_button",
+            "variant": "default",
+            "content": {
+              "icon": "",
+              "text": "Go to Workday",
+              "format": {
+                "gap": 8,
+                "width": 100,
+                "textAlign": "center",
+                "textColor": "var(--background)",
+                "paddingTop": 64,
+                "showLesson": true,
+                "accentColor": "",
+                "paddingBottom": 64,
+                "paddingLinked": true,
+                "backgroundSize": "cover",
+                "backgroundType": "IMAGE",
+                "showObjectives": true,
+                "backgroundColor": "",
+                "contentMaxWidth": 3,
+                "backgroundEffect": "parallax",
+                "backgroundRepeat": "no-repeat",
+                "backgroundImageAlt": "Aubergine gradient background",
+                "backgroundImageSrc": "media/bg_gradient_2_inverted_unr2ecd.svg",
+                "backgroundPosition": "top",
+                "baseBackgroundType": "LIGHT",
+                "showTableOfContent": false,
+                "baseBackgroundColor": ""
+              },
+              "settings": {
+                "size": "medium",
+                "width": "auto",
+                "variant": "filled",
+                "buttonColor": ""
+              },
+              "actionType": "external_link",
+              "externalUrl": "https://wd1-identity.myworkday.com/wday/authgwy/cdcn/upc/login",
+              "targetSlide": null,
+              "autoContinue": false,
+              "navigationGuidance": true,
+              "enablementCondition": "all_previous_blocks",
+              "reloadLmsPageOnFinish": false
+            },
+            "custom_layout_id": null,
+            "position": 7,
+            "id": "b7"
+          }
+        ],
+        "variantIndices": null
+      }
+    ],
+    "sections": [],
+    "variants": [],
+    "checkpoints": [],
+    "linearOrder": [
+      {
+        "type": "slide",
+        "linearIndex": 0,
+        "id": "f7796327-9cd8-4970-bb45-c7ca06f9a801",
+        "sectionId": null,
+        "variantIndices": null
+      }
+    ],
+    "totalAssessments": 0,
+    "assessmentIds": [],
+    "settings": {
+      "navigation": {
+        "showScore": true,
+        "sidebarColor": "var(--background)",
+        "navigationType": "SIDEBAR",
+        "showCoverImage": false,
+        "navigationEnabled": false,
+        "restrictNavigation": true,
+        "slideNavigationBar": "DISABLED",
+        "showScrollTopButton": false,
+        "showFullscreenButton": false,
+        "navigationButtonStyle": "FULL",
+        "showNavigationButtons": true,
+        "sidebarExpandedByDefault": true
+      },
+      "grading_policy": {
+        "GRADER": [],
+        "enabled": false,
+        "GRADE_CUTOFFS": {
+          "Pass": 0.6
+        },
+        "completionMode": "both",
+        "completionThreshold": 100,
+        "completion_requirements": {
+          "require_all_graders": true,
+          "require_minimum_counts": true
+        }
+      },
+      "navigationGuidance": {
+        "enabled": true
+      },
+      "scorm": {
+        "enableDebugging": false
+      }
+    },
+    "gradingData": {
+      "policy": {
+        "GRADER": [],
+        "enabled": false,
+        "GRADE_CUTOFFS": {
+          "Pass": 0.6
+        },
+        "completionMode": "both",
+        "completionThreshold": 100,
+        "completion_requirements": {
+          "require_all_graders": true,
+          "require_minimum_counts": true
+        }
+      },
+      "enabled": false,
+      "graders": [],
+      "gradeCutoffs": {
+        "Pass": 0.6
+      },
+      "metadata": {
+        "hasGradingPolicy": false,
+        "totalGraders": 0,
+        "graderTypes": [],
+        "exportedAt": "2026-11-24T16:58:07.172Z"
+      }
+    },
+    "assessmentMapping": {}
+  },
+  "settings": {
+    "themeCSS": "@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');\n\n:root {\n  --dark-color: oklch(0.12 0.03 312);\n  --dark: oklch(0.12 0.03 312);\n  --gray-color: oklch(0.9591 0.0123 317.74);\n  --gray: oklch(0.9591 0.0123 317.74);\n  --accent-color: oklch(0.9159 0.0467 359.66);\n  --accent: oklch(0.9159 0.0467 359.66);\n  --danger-color: oklch(0.65 0.24 25);\n  --danger: oklch(0.65 0.24 25);\n  --primary-color: oklch(0.50 0.16 333);\n  --primary: oklch(0.50 0.16 333);\n  --success-color: oklch(0.70 0.20 145);\n  --success: oklch(0.70 0.20 145);\n  --warning-color: oklch(0.75 0.15 85);\n  --warning: oklch(0.75 0.15 85);\n  --background-color: oklch(1 0 0);\n  --background: oklch(1 0 0);\n  --foreground-color: oklch(0.12 0.03 312);\n  --foreground: oklch(0.12 0.03 312);\n  --primary-foreground: white;\n  --gray-foreground: oklch(0.12 0.03 312);\n  --font-body: \"Inter\", system-ui, sans-serif;\n  --font-heading: \"Raleway\", system-ui, sans-serif;\n  --radius: 0.625rem;\n  --heading-weight: 700;\n}\n\n.font-heading { font-family: var(--font-heading); }\n.font-body { font-family: var(--font-body); }\n\n/* Override heading weight */\nh1, h2, h3, h4, h5, h6 { font-weight: var(--heading-weight) !important; }\n",
+    "locale": "en",
+    "direction": "ltr",
+    "customLayouts": {}
+  }
+}
