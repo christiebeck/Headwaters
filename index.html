@@ -75,7 +75,7 @@
     .hero {
   display: grid;
   grid-template-columns: 320px minmax(0, 1fr);
-  align-items: center;
+  align-items: start;
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -92,6 +92,7 @@
   display: block;
 }
     .eyebrow {
+      margin-top: 0;
       color: var(--accent);
       text-transform: uppercase;
       letter-spacing: 0.15em;
@@ -170,6 +171,30 @@
   padding: 7px 13px;
   font-size: 0.82rem;
   line-height: 1.4;
+}
+
+
+.page-links {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 12px;
+  margin-top: 16px;
+  width: max-content;
+  max-width: calc(100vw - 10%);
+}
+
+.page-links .resume-button {
+  padding: 11px 18px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .page-links {
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 760px) {
@@ -270,9 +295,21 @@
     </a>
   </p>
 
+  
+<div class="page-links">
   <a class="resume-button" href="resume.html">
-    View my resume →
+    View my Resume →
   </a>
+
+  <a class="resume-button" href="portfolio.html">
+    View my Portfolio →
+  </a>
+
+  <a class="resume-button" href="blog.html">
+    Read my Blog →
+  </a>
+</div>
+
 </div>
 
       </div>
