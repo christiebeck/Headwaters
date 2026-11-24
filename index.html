@@ -179,6 +179,41 @@
   }
 }
 
+.photo-contact {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.photo-contact p {
+  margin: 0 0 16px;
+}
+
+.photo-contact a:not(.resume-button) {
+  color: var(--accent);
+  overflow-wrap: anywhere;
+}
+
+.resume-button {
+  display: inline-block;
+  background: var(--text);
+  color: white;
+  padding: 11px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.resume-button:hover {
+  background: var(--accent);
+}
+
+.resume-button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
     @media (max-width: 760px) {
       .nav {
         align-items: flex-start;
@@ -227,6 +262,19 @@
           width="1145"
           height="1374"
         >
+        <div class="photo-contact">
+  <p>
+    <strong>Contact me:</strong>
+    <a href="mailto:christie.m.beck@gmail.com">
+      christie.m.beck@gmail.com
+    </a>
+  </p>
+
+  <a class="resume-button" href="resume.html">
+    View my resume →
+  </a>
+</div>
+
       </div>
 
       <div class="intro">
